@@ -1,13 +1,13 @@
-@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+@import url(<linkrel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">); 
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Libre Franklin', sans-serif;
 }
-body {
+.body {
 
     background-color: lightblue;
     display: flex;
@@ -100,6 +100,22 @@ body {
 .p1 {
     padding: 9px 10px;
     font-size: 11px;
+}
+.web {
+    width: 85%;
+    background-color: white;
+}
+.graf {
+    width: 90%;
+    background-color: white;
+}
+.conte {
+    width: 90%;
+    background-color: white;
+}
+.smm {
+    width: 100%;
+    background-color: white;
 }
 .photoshop {
     width: 80%;
